@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+
+{% block title %}PROJECTS{% endblock %}
+
+{% block body %}
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>Here are some projects that I have worked on Mostly using Python, Django, HTML, CSS and Beautifulsoup</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-apps"> Web Apps</li>
+              <li data-filter=".filter-websites">Websites</li>
+              <li data-filter=".filter-scrap">Web Scraping</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-websites">
+              <div class="card border-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header text-white bg-primary"><h5 style="text-align:center">Office Employee Management System</h5></div>
+                <div class="card-body">
+                  <p>
+                    <span class="badge bg-primary">HTML</span>
+                    <span class="badge bg-primary">CSS</span>
+                    <span class="badge bg-primary">Bootstrap</span>
+                    <span class="badge bg-primary">Python</span>
+                    <span class="badge bg-primary">Django</span>
+                  </p>
+                  <p class="card-text">This Project is all about Creating, Maintaining, Deleting or Updating All Employees Details Records working in XYZ Company.</p>
+                  <h3><a href="https://github.com/mr-omi/Office-Employee-System" target="_blank"><i class='bx bxl-github bx-tada' style='color:#ef1cc3' ></i></a></h3>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-apps">
+              <div class="card border-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header text-white bg-secondary"><h5 style="text-align:center">News App</h5></div>
+                <div class="card-body">
+                  <p>
+                    <span class="badge bg-secondary">HTML</span>
+                    <span class="badge bg-secondary">CSS</span>
+                    <span class="badge bg-secondary">Bootstrap</span>
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">Django</span>
+                    <span class="badge bg-secondary">JSON</span>
+                  </p>
+                  <p class="card-text">This Project is all about displaying top 20 Headlines of your desired country all over world. You just have to enter Country code the website will show the trending news.</p>
+                  <h3><a href="https://github.com/mr-omi/NewsApp" target="_blank"><i class='bx bxl-github bx-tada' style='color:#ef1cc3' ></i></a></h3>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-apps">
+              <div class="card border-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header text-white bg-success"><h5 style="text-align:center">Currency Converter App</h5></div>
+                <div class="card-body">
+                  <p>
+                    <span class="badge bg-success">HTML</span>
+                    <span class="badge bg-success">CSS</span>
+                    <span class="badge bg-success">JavaScript</span>
+                    <span class="badge bg-success">Python</span>
+                    <span class="badge bg-success">Django</span>
+                  </p>
+                  <p class="card-text">This Project is the Currency Converter App Which Shows The Exchange Rate Results Between two countries currencies of your choice, you just have to select currencies to compare.</p>
+                  <h3><a href="https://github.com/mr-omi/Exchange-Rate-App" target="_blank"><i class='bx bxl-github bx-tada' style='color:#ef1cc3' ></i></a></h3>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-apps">
+              <div class="card border-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header text-white bg-danger"><h5 style="text-align:center">Weather App</h5></div>
+                <div class="card-body">
+                  <p>
+                    <span class="badge bg-danger">HTML</span>
+                    <span class="badge bg-danger">CSS</span>
+                    <span class="badge bg-danger">JavaScript</span>
+                    <span class="badge bg-danger">Python</span>
+                    <span class="badge bg-danger">Django</span>
+                    <span class="badge bg-danger">JSON</span>
+                  </p>
+                  <p class="card-text">This Project is all about displaying current weather status of your desired city all over world. You just have to enter city name the website will show the current weather status</p>
+                  <h3><a href="https://github.com/mr-omi/Weather-APP" target="_blank"><i class='bx bxl-github bx-tada' style='color:#ef1cc3' ></i></a></h3>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-scrap">
+              <div class="card border-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header text-white bg-warning"><h5 style="text-align:center">Scraping Flipkart</h5></div>
+                <div class="card-body">
+                  <p>
+                    <span class="badge bg-warning">Python</span>
+                    <span class="badge bg-warning">Beautifulsoup</span>
+                  </p>
+                  <p class="card-text">This Project is about scraping Names, Ratings and Price of Samsung Mobiles which are in stocks, and in price range of 20,000 to 30,000 from all resulting pages of Flipkart website and Sorted it according to Price Lower to Higher</p>
+                  <h3><a href="https://github.com/mr-omi/Beautifulsoup-1" target="_blank"><i class='bx bxl-github bx-tada' style='color:#ef1cc3' ></i></a></h3>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-apps">
+              <div class="card border-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header text-white bg-info"><h5 style="text-align:center">TodoList App</h5></div>
+                <div class="card-body">
+                  <p>
+                    <span class="badge bg-info">HTML</span>
+                    <span class="badge bg-info">CSS</span>
+                    <span class="badge bg-info">Bootstrap</span>
+                    <span class="badge bg-info">Python</span>
+                    <span class="badge bg-info">Django</span>
+                  </p>
+                  <p class="card-text">This Project is about creating simple todolist app which authenticates and authorized user to note there task ,check tick the task after completion and also delete it after its completion</p>
+                  <h3><a href="https://github.com/mr-omi/TodoList" target="_blank"><i class='bx bxl-github bx-tada' style='color:#ef1cc3' ></i></a></h3>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-websites">
+              <div class="card border-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header text-white bg-dark"><h5 style="text-align:center">Personal Portfolio</h5></div>
+                <div class="card-body">
+                  <p>
+                    <span class="badge bg-dark">HTML</span>
+                    <span class="badge bg-dark">CSS</span>
+                    <span class="badge bg-dark">Bootstrap</span>
+                    <span class="badge bg-dark">Javascript</span>
+                    <span class="badge bg-dark">Django</span>
+                    <span class="badge bg-dark">Python</span>
+                  </p>
+                  <p class="card-text">This Project is about creating personal portfolio website using Django and Frontend Languages</p>
+                  <h3><a href="https://github.com/mr-omi/Personal-Portfolio" target="_blank"><i class='bx bxl-github bx-tada' style='color:#ef1cc3' ></i></a></h3>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </section>
+{% endblock %}

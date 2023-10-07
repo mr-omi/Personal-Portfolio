@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}ABOUT{% endblock %}
+
+{% block body %}
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Hey There ! I am Omkar Bhosale based in Thane, India. Graduated from Mumbai University as Bachelor of Science in Information Technology . I am fan of Web development, Web scraping, Coding and Cricket. Loves to explore and learn new technologies </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="{% static 'assets/img/profile.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Python Backend Developer &amp; Web Scraper.</h3>
+            <br>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>19 July 1998</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kalyan, India</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>State:</strong> <span>Maharashtra</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>omksbhosale18@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              I am enthusiastic coder who loves to learn and work on projects. I am Skilled in Python, Backend web development using Django, WebScraping and RestApi using djangorestframework. I have worked in few projects
+              which are websites and  web applications. You can see it in Projects section. Seeking a position to utilize my skills and abilities in any field that offers educational growth while being resourceful, innovative and flexible
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+{% endblock %}
